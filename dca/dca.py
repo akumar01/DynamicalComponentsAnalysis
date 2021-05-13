@@ -5,7 +5,6 @@ from scipy.optimize import minimize
 from scipy.signal.windows import hann
 
 import torch
-import torch.fft
 import torch.nn.functional as F
 
 from .base import SingleProjectionComponentsAnalysis, ortho_reg_fn, init_coef, ObjectiveWrapper
